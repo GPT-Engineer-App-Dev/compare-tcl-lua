@@ -1,5 +1,4 @@
-import { Home, SplitSquareVertical } from "lucide-react";
-import Index from "./pages/Index.jsx";
+import { SplitSquareVertical } from "lucide-react";
 import Comparison from "./pages/Comparison.jsx";
 
 /**
@@ -7,14 +6,8 @@ import Comparison from "./pages/Comparison.jsx";
  */
 export const navItems = [
   {
-    title: "Home",
-    to: "/",
-    icon: <Home className="h-4 w-4" />,
-    page: <Index />,
-  },
-  {
     title: "Comparison",
-    to: "/comparison",
+    to: "/",
     icon: <SplitSquareVertical className="h-4 w-4" />,
     page: <Comparison />,
   },
