@@ -1,4 +1,4 @@
-import { Home, CodeCompare } from "lucide-react";
+import { Home, SplitSquareVertical } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import Comparison from "./pages/Comparison.jsx";
 
@@ -15,7 +15,7 @@ export const navItems = [
   {
     title: "Comparison",
     to: "/comparison",
-    icon: <CodeCompare className="h-4 w-4" />,
+    icon: <SplitSquareVertical className="h-4 w-4" />,
     page: <Comparison />,
   },
 ];
