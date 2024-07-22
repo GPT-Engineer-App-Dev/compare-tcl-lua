@@ -1,14 +1,13 @@
-import { SplitSquareVertical } from "lucide-react";
-import Comparison from "./pages/Comparison.jsx";
+import { Home } from "lucide-react";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
  */
 export const navItems = [
   {
-    title: "Comparison",
+    title: "Home",
     to: "/",
-    icon: <SplitSquareVertical className="h-4 w-4" />,
-    page: <Comparison />,
+    icon: <Home className="h-4 w-4" />,
+    page: null, // We'll update this later when we create a Home component
   },
 ];
